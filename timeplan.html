@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeplan</title>
+    <style>
+        .container{
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        th, td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        table{
+            border: 10px solid  pink;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #pause1, #pause2, #pause3{
+            background-color: rgb(160, 160, 160);
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        thead{
+            background-color: rgb(250, 161, 255);
+        }
+
+        .biologi{
+            background-color: rgb(157, 255, 157);
+        }
+
+        .rettslære{
+            background-color: rgb(255, 221, 157);
+        }
+
+        .fransk{
+            background-color: rgb(226, 151, 255);
+        }
+
+        .r1{
+            background-color: rgb(184, 237, 255);
+        }
+
+        .it1{
+            background-color: rgb(167, 255, 246);
+        }
+
+        .norsk{
+            background-color: lightyellow;
+        }
+
+        .gym{
+            background-color: rgb(166, 255, 169);
+        }
+
+        th{
+            background-color: rgb(178, 178, 178);
+        }
+    </style>
+</head>
+<body>
+    <h1>Timeplan</h1>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Tid</th>
+                    <th>Mandag</th>
+                    <th>Tirsdag</th>
+                    <th>Onsdag</th>
+                    <th>Torsdag</th>
+                    <th>Fredag</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> 
+                <td>8:15-9:50</td>
+                <td class="biologi">Biologi</td>
+                <td></td>
+                <td class="fransk">Fransk</td>
+                <td class="biologi">Biologi</td>
+                <td class="r1">R1</td>
+            </tr>
+            <tr>
+                <td>9:50-10:00</td>
+                <td id="pause1" colspan="5">Pause</td>
+            </tr>
+            <tr>
+                <td>10:00-11:35</td>
+                <td class="r1">R1</td>
+                <td class="rettslære">Rettslære</td>
+                <td class="norsk">Norsk</td>
+                <td class="historie">Historie</td>
+                <td class="it1">IT1</td>
+            </tr>
+            <tr>
+                <td>11:35-12:20</td>
+                <td id="pause2" colspan="5">Pause</td>
+            </tr>
+            <tr>
+                <td>12:20-13:55</td>
+                <td class="norsk">Norsk</td>
+                <td class="gym">Gym</td>
+                <td class="it1">IT1</td>
+                <td class="rettslære">Rettslære</td>
+                <td class="fransk">Fransk</td>
+            </tr>
+            <tr>
+                <td>13:55-14:05</td>
+                <td id="pause3" colspan="5">Pause</td>
+            </tr>
+            <tr>
+                <td>14:05-15:40</td>
+                <td class="rettslære">Rettslære</td>
+                <td class="biologi">Biologi</td>
+                <td></td>
+                <td class="r1">(R1)</td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
