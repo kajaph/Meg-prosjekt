@@ -1,0 +1,75 @@
+  @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-weight: normal;
+  }
+
+  body {
+      font-size: 15px;
+      font-family: "BBH Sans Hegarty", sans-serif;
+  }
+
+  h1 {
+      padding: 20px;
+      background-color: rgb(255, 175, 212);
+      text-align: center;
+      color: rgb(101, 0, 118);
+  }
+
+
+  body {
+      background-color: rgb(255, 160, 187);
+  }
+
+  .container {
+      max-width: 800px;
+      margin: 0 auto;
+      font-family: "Oswald", sans-serif;
+  }
+
+  main {
+      background-color: rgb(131, 193, 255);
+  }
+
+  footer {
+      background-color: rgb(255, 149, 149);
+  }
+
+  ol,
+  ul {
+      list-style: none;
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+  }
+
+  .nav {
+      background-color: rgb(237, 109, 165);
+  }
+
+  .nav>ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+  }
+
+  .nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 17px;
+      padding: 10px;
+      border-radius: 10px;
+  }
+
+  .nav a:hover {
+      background-color: rgb(255, 255, 255);
+      transition: 600ms;
+      color: rgb(237, 109, 165);
+  }

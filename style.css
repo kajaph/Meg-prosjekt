@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /* minimal css reset */
 * {
     box-sizing: border-box;
@@ -11,25 +12,69 @@
 body {
     font-size: 15px;
     font-family: "BBH Sans Hegarty", sans-serif;
-
+    background-color: rgb(255, 198, 225);
 }
 
-h1{
+.fambilde{
+    width: 600px;
+    margin: 0 auto;
+}
+.famtekst{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "BBH Sans Bogle", sans-serif;
+}
+
+h1 {
     padding: 20px;
     background-color: rgb(255, 175, 212);
     text-align: center;
     color: rgb(101, 0, 118);
 }
 
-main{
-    background-color: rgb(131, 193, 255);
+main {
+    background-color: rgb(255, 175, 212);
+    display: flex;
+    justify-content: space-evenly;
 }
 
-footer{
-    background-color: rgb(255, 149, 149);
+.heihei1 > p{
+    padding: 10px;
+}
+.heihei2 > p{
+    padding: 10px;
 }
 
+footer {
+    background-color: rgb(172, 27, 117);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    max-height: 200px;
+}
 
+footer > p{
+    color: aliceblue;
+    padding: 5px;
+
+}
+
+.insta{
+    padding: 5px;
+}
+
+.insta > p{
+    color: aliceblue;
+    display: inline;
+}
+
+.phone{
+    padding: 5px;
+}
+.phone > p{
+    color: aliceblue;
+    display: inline;
+}
 
 ol,
 ul {
@@ -61,7 +106,11 @@ img {
 }
 
 .nav a:hover {
-    background-color: rgb(92, 92, 196);
+    background-color: rgb(255, 255, 255);
     transition: 600ms;
+    color: rgb(237, 109, 165);
+}
 
+i{
+    color: white;
 }
